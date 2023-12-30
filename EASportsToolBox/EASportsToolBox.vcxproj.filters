@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Compression">
+      <UniqueIdentifier>{2475ffae-58f5-475d-91c3-9c10f32c53d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Compression">
+      <UniqueIdentifier>{be21cc71-b7bc-4140-a5d8-051303678c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Compression\Refpack">
+      <UniqueIdentifier>{7fb6a8ad-fee5-4562-9030-b4a1c77d8914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Compression\LZX">
+      <UniqueIdentifier>{b2df7bdc-df3a-4600-837e-f5f0ada1fd72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Compression\Zlib">
+      <UniqueIdentifier>{9f104108-f890-46cf-bf48-83b84b19e833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Compression\LZX">
+      <UniqueIdentifier>{4bf94034-3973-4c8d-86a7-e9385637c925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Compression\Zlib">
+      <UniqueIdentifier>{25bb1dce-3e54-404d-bbb8-28cf03200cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Compression\Refpack">
+      <UniqueIdentifier>{4750558f-fcd8-48a1-91cb-7df0a35e2aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LibraryObjects">
+      <UniqueIdentifier>{3b5527c6-63ea-47d0-a5f1-a4ee4ee6ef83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Include">
+      <UniqueIdentifier>{bc826e34-2655-4bb1-982c-a793cedf3e9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression\refpack\refpackd.h">
+      <Filter>Header Files\Compression\Refpack</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression\lzx\mspack\lzx.h">
+      <Filter>Header Files\Compression\LZX</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression\lzx\mspack\mspack.h">
+      <Filter>Header Files\Compression\LZX</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression\lzx\mspack\readbits.h">
+      <Filter>Header Files\Compression\LZX</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression\lzx\mspack\readhuff.h">
+      <Filter>Header Files\Compression\LZX</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression\lzx\mspack\system.h">
+      <Filter>Header Files\Compression\LZX</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression\lzx\xmem_lzx.h">
+      <Filter>Header Files\Compression\LZX</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression\Zlib\Include\zlib-1.3\zlib.h">
+      <Filter>Header Files\Compression\Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression\Zlib\Include\zlib-1.3\zconf.h">
+      <Filter>Header Files\Compression\Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryObjects\tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\EASportsToolBox.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryObjects\big4parser.cpp">
+      <Filter>Source Files\LibraryObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryObjects\arenaparser.cpp">
+      <Filter>Source Files\LibraryObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryObjects\sfcollectionparser.cpp">
+      <Filter>Source Files\LibraryObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryObjects\bigebparser.cpp">
+      <Filter>Source Files\LibraryObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Compression\lzx\mspack\lzxd.c">
+      <Filter>Header Files\Compression\LZX</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryObjects\EASportsToolBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryObjects\big4packer.cpp">
+      <Filter>Source Files\LibraryObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
